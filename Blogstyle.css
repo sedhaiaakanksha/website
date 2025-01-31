@@ -1,0 +1,251 @@
+/* General reset to remove default margin and padding from all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling for background color and image settings */
+body {
+  background-size: cover;
+  background-color: #d9d9d9;
+}
+
+/* Header styling */
+.navBar {
+  background-color:#005f73;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/* Logo section in the header */
+.nav-logo {
+  display: flex;
+}
+
+/* Navigation section for page links */
+.pages {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the navigation links */
+.links {
+  margin-right: 10px;
+  list-style: none;
+  display: flex;
+  gap: 100px;
+}
+
+.links i {
+  color: #fff;
+  margin-right: 5px;
+  margin-top: 40px;
+}
+
+
+/* Links inside navigation pages */
+.pages a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  
+}
+
+/* Hover effect for navigation links */
+.pages a:hover {
+  color: #ff7200;
+  text-decoration: underline;
+  font-style: italic;
+}
+main{
+  padding: 50px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* gap between first row of cards and second row of cards */
+.fullBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Container for the first and second boxes */
+.firstBox, .secondBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  
+}
+
+/* Card styling for layout and appearance */
+.card {
+  width: 30%;
+  border-radius: 10px;
+  background-color: rgb(249, 249, 249);
+  margin: 10px;
+  box-shadow: 3px 3px 12px rgb(106, 103, 131);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+/* Hover effect for cards */
+.card:hover {
+  box-shadow: 3px 3px 12px rgb(40, 24, 24);
+  transition: 0.5s;
+}
+
+/* centering image in div picture */
+.picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling inside cards */
+.picture img {
+  align-items: center;
+  width: 80%;
+  border-radius: 5px;
+  margin: 20px auto 0;
+}
+
+/* Content inside cards */
+.content {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 6px;
+}
+
+/* Description styling for cards */
+.discription {
+  text-align: center;
+  font-size: larger;
+  padding: 6px;
+}
+
+/* Text alignment for paragraphs inside descriptions */
+.card > .discription > p {
+  text-align: justify;
+  padding: 5px;
+}
+
+/* Buttons inside cards */
+button {
+  margin: 28px 0;
+  border-radius: 15px;
+  background-color: #ff2e04e5;
+  border: 1px solid black;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  font-size: large;
+  cursor: pointer;
+  transition: 1s;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Footer section styling */
+.footer {
+  padding: 15px;
+  height: 200px;
+  background-color: #005f73;
+  color: #fff;
+}
+
+/* Layout for footer content */
+.containerr {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer text boxes */
+.box p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.box h3 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.box i {
+  color: white;
+}
+
+/* Links inside footer boxes */
+.box a {
+  display: block;
+  text-decoration: none;
+  padding-top: 23px;
+  color: grey;
+}
+
+/* Hover effect for footer links */
+.box a:hover {
+  color: #ff7200;
+}
+
+/* Social media links in footer */
+.socialmedia {
+  display: flex;
+  gap: 30px;
+}
+
+.socialmedia a {
+  font-size: 20px;
+}
+
+/* Input styling for email subscription */
+.newsEmail {
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 30px;
+  background-color: #eee;
+  border: none;
+  width: 220px;
+}
+
+/* Subscribe button in footer */
+#subscribe {
+  margin: 10px 0 0 60px;
+  width: 100px;
+  height: 30px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  font-size: 15px;
+}
+
+/* Hover effect for subscribe button */
+#subscribe:hover {
+  background-color: #eee;
+  text-decoration: underline;
+  color: #ff7200;
+}
+
+/* Copyright text styling in footer */
+.copyright {
+  margin-top: 10px;
+  margin-right: 3px;
+}
